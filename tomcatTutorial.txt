@@ -1,0 +1,63 @@
+1) Instalar o Debian >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+https://cdimage.debian.org/mirror/cdimage/archive/
+
+2) Configurar um ip fixo >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+vi /etc/network/interfaces
+iface enp0s3 inet static
+address x.x.x.x/x
+gateway x.x.x.1
+
+vi /etc/resolv.conf
+nameserver 8.8.8.8
+nameserver 8.8.4.4
+#ipv6
+#2001:4860:4860:8888
+#2001:4860:4860:8844
+
+apt update
+
+3) Instalação do Tomcat >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+apt-get install default-jdk
+java -version
+javac -version
+apt install tomcat9
+systemctl status tomcat9
+
+ip:8080
+
+Path:
+/var/lib/tomcat9/webapps/ROOT
+
+4) Configuração do Tomcat >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+apt-get install tomcat9-admin tomcat9-examples tomcat9-docs
+
+vi /etc/tomcat9/tomcat-users.xml
+#linha 22
+<user username="admin" password="admin" roles="manager-gui,admin-gui" />
+systemctl restart tomcat9
+
+ip:8080/docs
+ip:8080/examples
+ip:8080/manager/html
+
+5) MySQL >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+apt-get install gnupg
+
+mysql.com -> Downloads (obter o link do repositório apt)
+wget "link do repositório"
+dpkg -i "pacote"
+apt update
+apt install mysql-server
+systemctl status mysql
+mysql -V
+mysql_secure_installation
+
+mysql -u root -p
+create user 'dba'@'%' identified by 'Dba@123456';
+grant all privileges on *.* to 'dba'@'%';
+flush privileges;
+select user,host from mysql.user;
+<ctrl><L>
+<ctrl><D>
+
+#Instalar o workbench no cliente

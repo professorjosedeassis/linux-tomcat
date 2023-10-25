@@ -4,7 +4,7 @@ Neste tutorial você irá aprender a implementar de forma simples e prática um 
 Este projeto é ideal para estudantes, DevOps e desenvolvedores Java back-end ou full stack que desejam dar os primeiros passos com um Servidor Apache Tomcat baseado no Linux.
 ### Autor
 Professor José de Assis
-### Apresentação do projeto:
+### Apresentação
 [![Buscar CEP](https://img.youtube.com/vi/nuRy0omG06o/0.jpg)](https://youtu.be/nuRy0omG06o "Assistir no YouTube")
 
 ![YouTube Video Views](https://img.shields.io/youtube/views/nuRy0omG06o?style=social)

@@ -1,7 +1,7 @@
 ![GitHub](https://img.shields.io/github/license/professorjosedeassis/linux-tomcat)
-# Tutorial - Linux Tomcat Server
+# Tutorial Linux Tomcat Server
 Neste tutorial você irá aprender a implementar de forma simples e prática um servidor WEB Java com Tomcat no Linux. O Apache Tomcat é usado para hospedagem de sites e também como servidor de aplicativos que usa a linguagem Java no back-end.
-Este projeto é ideal para estudantes, DevOps e desenvolvedores Java back-end ou full stack que desejam dar os primeiros passos com um Servidor Apache Tomcat baseado no Linux.
+Este tutorial é ideal para estudantes, DevOps e desenvolvedores Java back-end ou full stack que desejam dar os primeiros passos com um Servidor Apache Tomcat baseado no Linux.
 ### Autor
 Professor José de Assis
 ### Apresentação

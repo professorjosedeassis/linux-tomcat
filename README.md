@@ -9,7 +9,7 @@ Professor José de Assis
 
 ![YouTube Video Views](https://img.shields.io/youtube/views/nuRy0omG06o?style=social)
 ### Iniciar Tutorial:
-[Playlist](https://www.youtube.com/playlist?list=PLbEOwbQR9lqyGUhHQHEBXxeBbE1jq8r_c)
+▶️ [Playlist](https://www.youtube.com/playlist?list=PLbEOwbQR9lqyGUhHQHEBXxeBbE1jq8r_c)
 ## Como apoiar os tutoriais e projetos?
 ### Você pode me pagar um café! ☕
 #### Chave PIX:
